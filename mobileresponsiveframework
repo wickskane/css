@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Size</title>
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <!-- <script src="scripts.js"> -->
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 100%;
+      margin: 0;
+      background-color: #fff;
+    }
+
+    #header {
+      color: #fff;
+      background-color: #000;
+      border: none;
+      margin: 0;
+      padding: 0;
+      height: 3.125em; /* 50px/16=3.125em */
+      width: 75%;
+      font-size: 1.5625em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: center;
+    }
+
+    #nav {
+      color: #000;
+      background-color: #fff;
+      border: none;
+      margin: 0;
+      padding: 0;
+      height: 3.125em;
+      width: 25%;
+      font-size: 1.5625em;
+      position: absolute;
+      top: 0;
+      right: 0;
+      text-align: center;
+    }
+
+    #scontainer {
+      color: #000;
+      background-color: #aaa;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 9.375em; /* 150px/16=9.375em */
+      width: 100%;
+      font-size: 1.5625em;
+      position: absolute;
+      top: 3.125em;
+      left: 0;
+      text-align: center;
+    }
+
+    #article {
+      color: #fff;
+      background-color: #000;
+      border: none;
+      margin: 0;
+      padding: 0;
+      height: 15.625em; /* 250px/16=15.625em; */
+      width: 100%;
+      font-size: 1.5625em;
+      position: absolute;
+      top: 12.5em;
+      left: 0;
+      text-align: center;
+    }
+
+    #aside {
+      color: #000;
+      background-color: #fff;
+      border: none;
+      margin: 0;
+      padding: 0;
+      height: 6.25em; /* 100px/16=6.25em */
+      width: 100%;
+      font-size: 1.5625em;
+      position: absolute;
+      top: 28.125em;
+      left: 0;
+      text-align: center;
+    }
+
+    #footer {
+      color: #000;
+      background-color: #aaa;
+      border: none;
+      margin: 0;
+      padding: 0;
+      height: 3.125em;
+      width: 100%;
+      font-size: 1.5625em;
+      position: absolute;
+      top: 34.375em;
+      left: 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">&#60;header&#62;</div>
+  <div id="nav">&#60;nav&#62;</div>
+  <div id="scontainer">&#60;section&#62;
+    <br />&#60;figure&#62;
+    <br />&#60;figcaption&#62;
+  </div>
+  <div id="article">&#60;article&#62;</div>
+  <div id="aside">&#60;aside&#62;</div>
+  <div id="footer">&#60;footer&#62;</div>
+</body>
+</html>
