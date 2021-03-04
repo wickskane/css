@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Great Font Pairings</title>
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans&effect=shadow-multiple">
+  <!-- <script src="scripts.js"> -->
+  <style>
+    body {
+      font-family: "Noto Sans", sans-serif;
+      font-size: 100%;
+      margin: 0;
+      background-color: #fff;
+    }
+
+    h1 {
+      font-family: "Oswald", sans-serif;
+      font-size: 2.8125em;
+    }
+
+    p {
+      font-size: 1.5625em;
+    }
+
+    p.ftr {
+      text-shadow: 0.1em 0.1em 0.1em #fff;
+    }
+
+    #header {
+      color: #000;
+      background-color: #ff0000;
+      border: none;
+      margin: 0;
+      padding: 0;
+      height: 6.25em;
+      width: 75%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      text-align: center;
+    }
+
+    #nav {
+      color: #000;
+      background-color: #ffa500;
+      border: none;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 25%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: center;
+    }
+
+    #article {
+      color: #fff;
+      background-color: #000;
+      border: none;
+      margin: 0;
+      padding: 0;
+      height: 18.75em;
+      width: 22.5%;
+      position: absolute;
+      top: 20%;
+      left: 35%;
+      text-align: center;
+    }
+
+    #aside {
+      color: #000;
+      background-color: #ffff00;
+      border: none;
+      margin: 0;
+      padding: 0;
+      height: 18.75em;
+      width: 22.5%;
+      position: absolute;
+      top: 20%;
+      right: 10%;
+      text-align: center;
+    }
+
+    #section {
+      color: #000;
+      background-color: #aaa;
+      border: none;
+      margin: 0;
+      padding: 0;
+      height: 9.375em;
+      width: 55%;
+      position: absolute;
+      bottom: 20%;
+      left: 35%;
+      text-align: center;
+    }
+
+    #footer {
+      color: #fff;
+      background-color: #000;
+      border: none;
+      margin: 0;
+      padding: 0;
+      height: 6.25em;
+      width: 75%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="nav"><p>&#60;nav&#62;</p></div>
+  <div id="header">
+    <h1 class="font-effect-shadow-multiple">Great Font Pairings</h1>
+  </div>
+  <div id="article"><p>&#60;article&#62;</p></div>
+  <div id="aside">
+    <p>&#128517;</p>
+    <br> <p>&#60;figure&#62;</p>
+    <br> <p>&#60;figcaption&#62;</p>
+  </div>
+  <div id="section"><p>&#60;section&#62;</p></div>
+  <div id="footer"><p class="ftr">&#169; 2021 Kane Wicks</p></div>
+</body>
+</html>
